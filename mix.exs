@@ -14,7 +14,8 @@ defmodule Civile.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      extra_applications: [:logger]
+      extra_applications: [:riak_core, :logger],
+      mod: {Civile, []}
     ]
   end
 
