@@ -69,3 +69,77 @@
 2020-02-10 21:24:58.832 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,security} = true
 2020-02-10 21:24:58.847 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,bucket_types} = true
 2020-02-10 21:24:58.859 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,net_ticktime} = true
+2020-02-10 21:27:03.431 [info] <0.298.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2020-02-10 21:27:04.859 [info] <0.324.0>@partisan_config:init:61 Using node name: 'dev@127.0.0.1'
+2020-02-10 21:27:04.929 [info] <0.326.0>@partisan_config:get_node_address:235 Resolving "127.0.0.1"...
+2020-02-10 21:27:04.933 [info] <0.326.0>@partisan_config:get_node_address:238 Resolved "dev@127.0.0.1" to {127,0,0,1}
+2020-02-10 21:27:04.933 [info] <0.324.0>@partisan_config:get_node_address:255 Resolved "127.0.0.1" to {127,0,0,1}
+2020-02-10 21:27:05.142 [info] <0.324.0>@partisan_sup:init:66 Partisan listening on {127,0,0,1}:39277 listen_addrs: [#{ip => {127,0,0,1},port => 39277}]
+2020-02-10 21:27:05.291 [info] <0.375.0>@partisan_orchestration_backend:init:115 Not using container orchestration; disabling.
+2020-02-10 21:27:05.445 [info] <0.376.0>@partisan_config:seed:160 node 'dev@127.0.0.1' choosing random seed: {52969312,-576460739543804088,-576460752303423438}
+2020-02-10 21:27:06.114 [info] <0.379.0>@partisan_config:seed:160 node 'dev@127.0.0.1' choosing random seed: {52969312,-576460739543804088,-576460752303423438}
+2020-02-10 21:27:07.514 [info] <0.398.0>@riak_core_partisan_utils:configure_dispatch:150 Configuring partisan dispatch: false
+2020-02-10 21:27:10.875 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,vnode_routing} = proxy
+2020-02-10 21:27:10.925 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,staged_joins} = true
+2020-02-10 21:27:10.936 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,resizable_ring} = true
+2020-02-10 21:27:10.950 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,fold_req_version} = v2
+2020-02-10 21:27:10.963 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,security} = true
+2020-02-10 21:27:10.977 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,bucket_types} = true
+2020-02-10 21:27:11.049 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,net_ticktime} = true
+2020-02-10 21:35:37.208 [info] <0.486.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2020-02-10 21:35:38.654 [info] <0.512.0>@partisan_config:init:61 Using node name: 'dev1@127.0.0.1'
+2020-02-10 21:35:38.718 [info] <0.514.0>@partisan_config:get_node_address:235 Resolving "127.0.0.1"...
+2020-02-10 21:35:38.720 [info] <0.514.0>@partisan_config:get_node_address:238 Resolved "dev1@127.0.0.1" to {127,0,0,1}
+2020-02-10 21:35:38.720 [info] <0.512.0>@partisan_config:get_node_address:255 Resolved "127.0.0.1" to {127,0,0,1}
+2020-02-10 21:35:39.056 [info] <0.512.0>@partisan_sup:init:66 Partisan listening on {127,0,0,1}:54461 listen_addrs: [#{ip => {127,0,0,1},port => 54461}]
+2020-02-10 21:35:39.179 [info] <0.561.0>@partisan_orchestration_backend:init:115 Not using container orchestration; disabling.
+2020-02-10 21:35:39.305 [info] <0.562.0>@partisan_config:seed:160 node 'dev1@127.0.0.1' choosing random seed: {54114363,-576460482931733204,-576460752303422959}
+2020-02-10 21:35:39.933 [info] <0.564.0>@partisan_config:seed:160 node 'dev1@127.0.0.1' choosing random seed: {54114363,-576460482931733204,-576460752303422959}
+2020-02-10 21:35:40.779 [info] <0.583.0>@riak_core_partisan_utils:configure_dispatch:150 Configuring partisan dispatch: false
+2020-02-10 21:35:41.125 [warning] <0.599.0>@riak_core_ring_manager:reload_ring:380 No ring file available.
+2020-02-10 21:35:44.714 [info] <0.616.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,vnode_routing} = proxy
+2020-02-10 21:35:44.742 [info] <0.616.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,staged_joins} = true
+2020-02-10 21:35:44.756 [info] <0.616.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,resizable_ring} = true
+2020-02-10 21:35:44.774 [info] <0.616.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,fold_req_version} = v2
+2020-02-10 21:35:44.796 [info] <0.616.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,security} = true
+2020-02-10 21:35:44.815 [info] <0.616.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,bucket_types} = true
+2020-02-10 21:35:44.834 [info] <0.616.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,net_ticktime} = true
+2020-02-10 21:37:00.479 [info] <0.507.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2020-02-10 21:37:02.282 [info] <0.533.0>@partisan_config:init:61 Using node name: 'dev2@127.0.0.1'
+2020-02-10 21:37:02.358 [info] <0.535.0>@partisan_config:get_node_address:235 Resolving "127.0.0.1"...
+2020-02-10 21:37:02.359 [info] <0.535.0>@partisan_config:get_node_address:238 Resolved "dev2@127.0.0.1" to {127,0,0,1}
+2020-02-10 21:37:02.359 [info] <0.533.0>@partisan_config:get_node_address:255 Resolved "127.0.0.1" to {127,0,0,1}
+2020-02-10 21:37:02.724 [info] <0.533.0>@partisan_sup:init:66 Partisan listening on {127,0,0,1}:51523 listen_addrs: [#{ip => {127,0,0,1},port => 51523}]
+2020-02-10 21:37:02.948 [info] <0.582.0>@partisan_orchestration_backend:init:115 Not using container orchestration; disabling.
+2020-02-10 21:37:03.178 [info] <0.583.0>@partisan_config:seed:160 node 'dev2@127.0.0.1' choosing random seed: {67925712,-576460432421611183,-576460752303423150}
+2020-02-10 21:37:03.931 [info] <0.585.0>@partisan_config:seed:160 node 'dev2@127.0.0.1' choosing random seed: {67925712,-576460432421611183,-576460752303423150}
+2020-02-10 21:37:05.011 [info] <0.604.0>@riak_core_partisan_utils:configure_dispatch:150 Configuring partisan dispatch: false
+2020-02-10 21:37:05.493 [warning] <0.620.0>@riak_core_ring_manager:reload_ring:380 No ring file available.
+2020-02-10 21:37:07.695 [info] <0.637.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,vnode_routing} = proxy
+2020-02-10 21:37:07.723 [info] <0.637.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,staged_joins} = true
+2020-02-10 21:37:07.742 [info] <0.637.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,resizable_ring} = true
+2020-02-10 21:37:07.759 [info] <0.637.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,fold_req_version} = v2
+2020-02-10 21:37:07.773 [info] <0.637.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,security} = true
+2020-02-10 21:37:07.801 [info] <0.637.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,bucket_types} = true
+2020-02-10 21:37:07.877 [info] <0.637.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,net_ticktime} = true
+2020-02-10 21:38:01.477 [info] <0.507.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2020-02-10 21:38:02.950 [info] <0.533.0>@partisan_config:init:61 Using node name: 'dev3@127.0.0.1'
+2020-02-10 21:38:03.056 [info] <0.535.0>@partisan_config:get_node_address:235 Resolving "127.0.0.1"...
+2020-02-10 21:38:03.059 [info] <0.535.0>@partisan_config:get_node_address:238 Resolved "dev3@127.0.0.1" to {127,0,0,1}
+2020-02-10 21:38:03.059 [info] <0.533.0>@partisan_config:get_node_address:255 Resolved "127.0.0.1" to {127,0,0,1}
+2020-02-10 21:38:03.375 [info] <0.533.0>@partisan_sup:init:66 Partisan listening on {127,0,0,1}:60487 listen_addrs: [#{ip => {127,0,0,1},port => 60487}]
+2020-02-10 21:38:03.506 [info] <0.582.0>@partisan_orchestration_backend:init:115 Not using container orchestration; disabling.
+2020-02-10 21:38:03.653 [info] <0.583.0>@partisan_config:seed:160 node 'dev3@127.0.0.1' choosing random seed: {106987964,-576460427420088311,-576460752303423038}
+2020-02-10 21:38:04.336 [info] <0.585.0>@partisan_config:seed:160 node 'dev3@127.0.0.1' choosing random seed: {106987964,-576460427420088311,-576460752303423038}
+2020-02-10 21:38:05.452 [info] <0.604.0>@riak_core_partisan_utils:configure_dispatch:150 Configuring partisan dispatch: false
+2020-02-10 21:38:05.757 [warning] <0.620.0>@riak_core_ring_manager:reload_ring:380 No ring file available.
+2020-02-10 21:38:07.947 [info] <0.637.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,vnode_routing} = proxy
+2020-02-10 21:38:07.964 [info] <0.637.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,staged_joins} = true
+2020-02-10 21:38:07.978 [info] <0.637.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,resizable_ring} = true
+2020-02-10 21:38:07.993 [info] <0.637.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,fold_req_version} = v2
+2020-02-10 21:38:08.008 [info] <0.637.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,security} = true
+2020-02-10 21:38:08.022 [info] <0.637.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,bucket_types} = true
+2020-02-10 21:38:08.036 [info] <0.637.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,net_ticktime} = true
+2020-02-10 21:41:51.768 [info] <0.465.0>@riak_core_sysmon_handler:handle_event:92 monitor long_schedule <0.9.0> [{name,erl_prim_loader},{initial_call,{erlang,apply,2}},{almost_current_function,{prim_file,read_file_nif,1}},{message_queue_len,0},{dictionary,[]}] [{timeout,82},{in,{erl_prim_loader,loop,3}},{out,undefined}]
+2020-02-10 21:44:31.903 [info] <0.486.0>@riak_core_sysmon_handler:handle_event:92 monitor long_schedule <0.9.0> [{name,erl_prim_loader},{initial_call,{erlang,apply,2}},{almost_current_function,{prim_file,list_dir_nif,1}},{message_queue_len,1},{dictionary,[]}] [{timeout,156},{in,undefined},{out,undefined}]
+2020-02-10 21:55:31.893 [info] <0.486.0>@riak_core_sysmon_handler:handle_event:92 monitor long_schedule <0.485.0> [{name,timer_server},{initial_call,{timer,init,1}},{almost_current_function,{gen_server,loop,7}},{message_queue_len,0},{dictionary,[{'$initial_call',{timer,init,1}},{'$ancestors',[kernel_safe_sup,kernel_sup,<0.46.0>]}]}] [{timeout,69},{in,{gen_server,loop,7}},{out,{gen_server,loop,7}}]
