@@ -52,3 +52,20 @@
 2020-02-10 21:08:00.538 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,security} = true
 2020-02-10 21:08:00.554 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,bucket_types} = true
 2020-02-10 21:08:00.573 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,net_ticktime} = true
+2020-02-10 21:24:50.792 [info] <0.298.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2020-02-10 21:24:52.761 [info] <0.324.0>@partisan_config:init:61 Using node name: 'dev@127.0.0.1'
+2020-02-10 21:24:52.884 [info] <0.326.0>@partisan_config:get_node_address:235 Resolving "127.0.0.1"...
+2020-02-10 21:24:52.889 [info] <0.326.0>@partisan_config:get_node_address:238 Resolved "dev@127.0.0.1" to {127,0,0,1}
+2020-02-10 21:24:52.889 [info] <0.324.0>@partisan_config:get_node_address:255 Resolved "127.0.0.1" to {127,0,0,1}
+2020-02-10 21:24:53.156 [info] <0.324.0>@partisan_sup:init:66 Partisan listening on {127,0,0,1}:33485 listen_addrs: [#{ip => {127,0,0,1},port => 33485}]
+2020-02-10 21:24:53.332 [info] <0.375.0>@partisan_orchestration_backend:init:115 Not using container orchestration; disabling.
+2020-02-10 21:24:53.508 [info] <0.376.0>@partisan_config:seed:160 node 'dev@127.0.0.1' choosing random seed: {52969312,-576460738556471749,-576460752303423471}
+2020-02-10 21:24:54.382 [info] <0.379.0>@partisan_config:seed:160 node 'dev@127.0.0.1' choosing random seed: {52969312,-576460738556471749,-576460752303423471}
+2020-02-10 21:24:55.683 [info] <0.398.0>@riak_core_partisan_utils:configure_dispatch:150 Configuring partisan dispatch: false
+2020-02-10 21:24:58.734 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,vnode_routing} = proxy
+2020-02-10 21:24:58.766 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,staged_joins} = true
+2020-02-10 21:24:58.790 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,resizable_ring} = true
+2020-02-10 21:24:58.815 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,fold_req_version} = v2
+2020-02-10 21:24:58.832 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,security} = true
+2020-02-10 21:24:58.847 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,bucket_types} = true
+2020-02-10 21:24:58.859 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,net_ticktime} = true
