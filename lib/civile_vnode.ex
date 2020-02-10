@@ -24,6 +24,27 @@ defmodule Civile.VNode do
      {:reply, {:pong, v + 1, node(), partition}, state}
   end
 
+  ####################################
+
+  def handle_command({:put, {k, v}}, _sender, state = %{table_id: table_id, partition: partition}) do
+    :ets.insert(table_id, {k, v})
+    res = {:ok, node(), partition, nil}
+		{:reply, res, state}
+	end
+
+	def handle_command({:get, k}, _sender, state = %{table_id: table_id, partition: partition}) do
+		res =
+			case :ets.lookup(table_id, k) do
+				[] ->
+					{:ok, node(), partition, nil}
+
+				[{_, value}] ->
+					{:ok, node(), partition, value}
+			end
+
+		{:reply, res, state}
+	end
+
   def handoff_starting(_dest, state) do
     {true, state}
   end
