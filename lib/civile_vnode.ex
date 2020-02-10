@@ -6,7 +6,18 @@ defmodule Civile.VNode do
   end
 
   def init([partition]) do
-    {:ok, %{partition: partition}}
+    table_name = :erlang.list_to_atom('civile_' ++ :erlang.integer_to_list(partition))
+
+    table_id =
+      :ets.new(table_name, [:set, {:write_concurrency, false}, {:read_concurrency, false}])
+
+    state = %{
+      partition: partition,
+      table_name: table_name,
+      table_id: table_id
+    }
+
+    {:ok, state}
   end
 
   def handle_command({:ping, v}, _sender, state = %{partition: partition}) do
