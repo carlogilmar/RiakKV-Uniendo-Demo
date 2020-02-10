@@ -143,3 +143,103 @@
 2020-02-10 21:41:51.768 [info] <0.465.0>@riak_core_sysmon_handler:handle_event:92 monitor long_schedule <0.9.0> [{name,erl_prim_loader},{initial_call,{erlang,apply,2}},{almost_current_function,{prim_file,read_file_nif,1}},{message_queue_len,0},{dictionary,[]}] [{timeout,82},{in,{erl_prim_loader,loop,3}},{out,undefined}]
 2020-02-10 21:44:31.903 [info] <0.486.0>@riak_core_sysmon_handler:handle_event:92 monitor long_schedule <0.9.0> [{name,erl_prim_loader},{initial_call,{erlang,apply,2}},{almost_current_function,{prim_file,list_dir_nif,1}},{message_queue_len,1},{dictionary,[]}] [{timeout,156},{in,undefined},{out,undefined}]
 2020-02-10 21:55:31.893 [info] <0.486.0>@riak_core_sysmon_handler:handle_event:92 monitor long_schedule <0.485.0> [{name,timer_server},{initial_call,{timer,init,1}},{almost_current_function,{gen_server,loop,7}},{message_queue_len,0},{dictionary,[{'$initial_call',{timer,init,1}},{'$ancestors',[kernel_safe_sup,kernel_sup,<0.46.0>]}]}] [{timeout,69},{in,{gen_server,loop,7}},{out,{gen_server,loop,7}}]
+2020-02-10 21:56:51.877 [info] <0.486.0>@riak_core_sysmon_handler:handle_event:92 monitor long_schedule <0.49.0> [{name,code_server},{initial_call,{erlang,apply,2}},{almost_current_function,{erl_prim_loader,request,1}},{message_queue_len,0},{dictionary,[]}] [{timeout,53},{in,{code_server,loop,1}},{out,{erl_prim_loader,request,1}}]
+2020-02-10 21:57:47.037 [info] <0.298.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2020-02-10 21:57:47.176 [info] <0.298.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2020-02-10 21:57:49.178 [info] <0.324.0>@partisan_config:init:61 Using node name: 'dev3@127.0.0.1'
+2020-02-10 21:57:49.276 [info] <0.326.0>@partisan_config:get_node_address:235 Resolving "127.0.0.1"...
+2020-02-10 21:57:49.290 [info] <0.326.0>@partisan_config:get_node_address:238 Resolved "dev3@127.0.0.1" to {127,0,0,1}
+2020-02-10 21:57:49.290 [info] <0.324.0>@partisan_config:get_node_address:255 Resolved "127.0.0.1" to {127,0,0,1}
+2020-02-10 21:57:49.618 [info] <0.324.0>@partisan_sup:init:66 Partisan listening on {127,0,0,1}:43131 listen_addrs: [#{ip => {127,0,0,1},port => 43131}]
+2020-02-10 21:57:49.844 [info] <0.375.0>@partisan_orchestration_backend:init:115 Not using container orchestration; disabling.
+2020-02-10 21:57:50.134 [info] <0.376.0>@partisan_config:seed:160 node 'dev3@127.0.0.1' choosing random seed: {106987964,-576460737223475256,-576460752303423390}
+2020-02-10 21:57:49.227 [info] <0.324.0>@partisan_config:init:61 Using node name: 'dev2@127.0.0.1'
+2020-02-10 21:57:49.307 [info] <0.326.0>@partisan_config:get_node_address:235 Resolving "127.0.0.1"...
+2020-02-10 21:57:49.326 [info] <0.326.0>@partisan_config:get_node_address:238 Resolved "dev2@127.0.0.1" to {127,0,0,1}
+2020-02-10 21:57:49.326 [info] <0.324.0>@partisan_config:get_node_address:255 Resolved "127.0.0.1" to {127,0,0,1}
+2020-02-10 21:57:49.619 [info] <0.324.0>@partisan_sup:init:66 Partisan listening on {127,0,0,1}:56857 listen_addrs: [#{ip => {127,0,0,1},port => 56857}]
+2020-02-10 21:57:49.892 [info] <0.375.0>@partisan_orchestration_backend:init:115 Not using container orchestration; disabling.
+2020-02-10 21:57:50.162 [info] <0.376.0>@partisan_config:seed:160 node 'dev2@127.0.0.1' choosing random seed: {67925712,-576460739062264443,-576460752303423391}
+2020-02-10 21:57:51.087 [info] <0.379.0>@partisan_config:seed:160 node 'dev3@127.0.0.1' choosing random seed: {106987964,-576460737223475256,-576460752303423390}
+2020-02-10 21:57:51.105 [info] <0.379.0>@partisan_config:seed:160 node 'dev2@127.0.0.1' choosing random seed: {67925712,-576460739062264443,-576460752303423391}
+2020-02-10 21:57:53.010 [info] <0.398.0>@riak_core_partisan_utils:configure_dispatch:150 Configuring partisan dispatch: false
+2020-02-10 21:57:53.022 [info] <0.398.0>@riak_core_partisan_utils:configure_dispatch:150 Configuring partisan dispatch: false
+2020-02-10 21:57:56.313 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,vnode_routing} = proxy
+2020-02-10 21:57:56.345 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,staged_joins} = true
+2020-02-10 21:57:56.370 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,resizable_ring} = true
+2020-02-10 21:57:56.398 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,fold_req_version} = v2
+2020-02-10 21:57:56.432 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,security} = true
+2020-02-10 21:57:56.481 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,bucket_types} = true
+2020-02-10 21:57:56.517 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,net_ticktime} = true
+2020-02-10 21:57:56.349 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,vnode_routing} = proxy
+2020-02-10 21:57:56.382 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,staged_joins} = true
+2020-02-10 21:57:56.400 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,resizable_ring} = true
+2020-02-10 21:57:56.423 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,fold_req_version} = v2
+2020-02-10 21:57:56.447 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,security} = true
+2020-02-10 21:57:56.470 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,bucket_types} = true
+2020-02-10 21:57:56.494 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,net_ticktime} = true
+2020-02-10 21:58:11.818 [info] <0.465.0>@riak_core_sysmon_handler:handle_event:92 monitor long_schedule <0.9.0> [{name,erl_prim_loader},{initial_call,{erlang,apply,2}},{almost_current_function,{prim_file,read_file_nif,1}},{message_queue_len,0},{dictionary,[]}] [{timeout,55},{in,{erl_prim_loader,loop,3}},{out,undefined}]
+2020-02-10 22:02:33.944 [info] <0.298.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2020-02-10 22:02:35.399 [info] <0.324.0>@partisan_config:init:61 Using node name: 'dev2@127.0.0.1'
+2020-02-10 22:02:35.462 [info] <0.326.0>@partisan_config:get_node_address:235 Resolving "127.0.0.1"...
+2020-02-10 22:02:35.466 [info] <0.326.0>@partisan_config:get_node_address:238 Resolved "dev2@127.0.0.1" to {127,0,0,1}
+2020-02-10 22:02:35.466 [info] <0.324.0>@partisan_config:get_node_address:255 Resolved "127.0.0.1" to {127,0,0,1}
+2020-02-10 22:02:35.673 [info] <0.324.0>@partisan_sup:init:66 Partisan listening on {127,0,0,1}:50509 listen_addrs: [#{ip => {127,0,0,1},port => 50509}]
+2020-02-10 22:02:35.807 [info] <0.375.0>@partisan_orchestration_backend:init:115 Not using container orchestration; disabling.
+2020-02-10 22:02:35.987 [info] <0.376.0>@partisan_config:seed:160 node 'dev2@127.0.0.1' choosing random seed: {67925712,-576460742486649921,-576460752303423390}
+2020-02-10 22:02:36.674 [info] <0.379.0>@partisan_config:seed:160 node 'dev2@127.0.0.1' choosing random seed: {67925712,-576460742486649921,-576460752303423390}
+2020-02-10 22:02:38.033 [info] <0.398.0>@riak_core_partisan_utils:configure_dispatch:150 Configuring partisan dispatch: false
+2020-02-10 22:02:41.266 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,vnode_routing} = proxy
+2020-02-10 22:02:41.286 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,staged_joins} = true
+2020-02-10 22:02:41.301 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,resizable_ring} = true
+2020-02-10 22:02:41.317 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,fold_req_version} = v2
+2020-02-10 22:02:41.334 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,security} = true
+2020-02-10 22:02:41.354 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,bucket_types} = true
+2020-02-10 22:02:41.370 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,net_ticktime} = true
+2020-02-10 22:02:47.232 [info] <0.527.0>@riak_core_partisan_utils:join:105 Starting join from partisan utils from 'dev2@127.0.0.1' to 'dev1@127.0.0.1'
+2020-02-10 22:02:48.803 [info] <0.527.0>@riak_core_partisan_utils:join:111 Finishing join from 'dev2@127.0.0.1' to 'dev1@127.0.0.1'
+2020-02-10 22:02:48.804 [info] <0.527.0>@riak_core_partisan_utils:join:105 Starting join from partisan utils from 'dev2@127.0.0.1' to 'dev2@127.0.0.1'
+2020-02-10 22:02:49.009 [info] <0.527.0>@riak_core_partisan_utils:join:111 Finishing join from 'dev2@127.0.0.1' to 'dev2@127.0.0.1'
+2020-02-10 22:02:49.462 [info] <0.414.0>@riak_core_gossip:log_node_changed:357 'dev2@127.0.0.1' changed from 'joining' to 'valid'
+2020-02-10 22:02:49.328 [info] <0.599.0>@riak_core_gossip:log_node_added:360 'dev2@127.0.0.1' joined cluster with status 'valid'
+2020-02-10 22:04:04.854 [info] <0.298.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2020-02-10 22:04:06.209 [info] <0.324.0>@partisan_config:init:61 Using node name: 'dev3@127.0.0.1'
+2020-02-10 22:04:06.259 [info] <0.326.0>@partisan_config:get_node_address:235 Resolving "127.0.0.1"...
+2020-02-10 22:04:06.262 [info] <0.326.0>@partisan_config:get_node_address:238 Resolved "dev3@127.0.0.1" to {127,0,0,1}
+2020-02-10 22:04:06.262 [info] <0.324.0>@partisan_config:get_node_address:255 Resolved "127.0.0.1" to {127,0,0,1}
+2020-02-10 22:04:06.495 [info] <0.324.0>@partisan_sup:init:66 Partisan listening on {127,0,0,1}:45127 listen_addrs: [#{ip => {127,0,0,1},port => 45127}]
+2020-02-10 22:04:06.661 [info] <0.375.0>@partisan_orchestration_backend:init:115 Not using container orchestration; disabling.
+2020-02-10 22:04:06.870 [info] <0.376.0>@partisan_config:seed:160 node 'dev3@127.0.0.1' choosing random seed: {106987964,-576460742760624994,-576460752303423470}
+2020-02-10 22:04:07.815 [info] <0.379.0>@partisan_config:seed:160 node 'dev3@127.0.0.1' choosing random seed: {106987964,-576460742760624994,-576460752303423470}
+2020-02-10 22:04:09.001 [info] <0.398.0>@riak_core_partisan_utils:configure_dispatch:150 Configuring partisan dispatch: false
+2020-02-10 22:04:11.687 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,vnode_routing} = proxy
+2020-02-10 22:04:11.708 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,staged_joins} = true
+2020-02-10 22:04:11.726 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,resizable_ring} = true
+2020-02-10 22:04:11.899 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,fold_req_version} = v2
+2020-02-10 22:04:11.951 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,security} = true
+2020-02-10 22:04:11.985 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,bucket_types} = true
+2020-02-10 22:04:12.013 [info] <0.431.0>@riak_core_capability:process_capability_changes:568 New capability: {riak_core,net_ticktime} = true
+2020-02-10 22:04:15.959 [info] <0.527.0>@riak_core_partisan_utils:join:105 Starting join from partisan utils from 'dev3@127.0.0.1' to 'dev1@127.0.0.1'
+2020-02-10 22:04:17.300 [info] <0.527.0>@riak_core_partisan_utils:join:111 Finishing join from 'dev3@127.0.0.1' to 'dev1@127.0.0.1'
+2020-02-10 22:04:17.301 [info] <0.527.0>@riak_core_partisan_utils:join:105 Starting join from partisan utils from 'dev3@127.0.0.1' to 'dev3@127.0.0.1'
+2020-02-10 22:04:17.564 [info] <0.527.0>@riak_core_partisan_utils:join:111 Finishing join from 'dev3@127.0.0.1' to 'dev3@127.0.0.1'
+2020-02-10 22:04:17.860 [info] <0.599.0>@riak_core_gossip:log_node_added:360 'dev3@127.0.0.1' joined cluster with status 'joining'
+2020-02-10 22:04:18.212 [info] <0.599.0>@riak_core_gossip:log_node_changed:357 'dev3@127.0.0.1' changed from 'joining' to 'valid'
+2020-02-10 22:04:18.005 [info] <0.414.0>@riak_core_gossip:log_node_added:360 'dev3@127.0.0.1' joined cluster with status 'joining'
+2020-02-10 22:04:18.320 [info] <0.414.0>@riak_core_gossip:log_node_changed:357 'dev3@127.0.0.1' changed from 'joining' to 'valid'
+2020-02-10 22:04:18.634 [info] <0.414.0>@riak_core_gossip:log_node_changed:357 'dev3@127.0.0.1' changed from 'joining' to 'valid'
+2020-02-10 22:05:26.865 [info] <0.712.0>@riak_core_partisan_utils:join:105 Starting join from partisan utils from 'dev1@127.0.0.1' to 'dev3@127.0.0.1'
+2020-02-10 22:05:27.947 [info] <0.712.0>@riak_core_partisan_utils:join:111 Finishing join from 'dev1@127.0.0.1' to 'dev3@127.0.0.1'
+2020-02-10 22:05:27.953 [info] <0.712.0>@riak_core_partisan_utils:join:105 Starting join from partisan utils from 'dev1@127.0.0.1' to 'dev3@127.0.0.1'
+2020-02-10 22:05:29.151 [info] <0.712.0>@riak_core_partisan_utils:join:111 Finishing join from 'dev1@127.0.0.1' to 'dev3@127.0.0.1'
+2020-02-10 22:05:29.169 [info] <0.712.0>@riak_core_partisan_utils:join:105 Starting join from partisan utils from 'dev1@127.0.0.1' to 'dev3@127.0.0.1'
+2020-02-10 22:05:30.538 [info] <0.712.0>@riak_core_partisan_utils:join:111 Finishing join from 'dev1@127.0.0.1' to 'dev3@127.0.0.1'
+2020-02-10 22:05:33.003 [info] <0.712.0>@riak_core_partisan_utils:join:105 Starting join from partisan utils from 'dev1@127.0.0.1' to 'dev3@127.0.0.1'
+2020-02-10 22:05:34.308 [info] <0.712.0>@riak_core_partisan_utils:join:111 Finishing join from 'dev1@127.0.0.1' to 'dev3@127.0.0.1'
+2020-02-10 22:06:14.423 [info] <0.465.0>@riak_core_sysmon_handler:handle_event:92 monitor long_schedule <0.712.0> [{initial_call,{'Elixir.IEx.Evaluator',init,4}},{almost_current_function,{gen,do_call,4}},{message_queue_len,0},{dictionary,[{iex_server,<0.82.0>},{iex_history,#{'__struct__' => 'Elixir.IEx.History',queue => {[{58,{pong,33,'dev3@127.0.0.1',342539446249430371453988632667878832731859189760}},{57,{pong,33,'dev3@127.0.0.1',342539446249430371453988632667878832731859189760}},{56,{pong,33,'dev3@127.0.0.1',342539446249430371453988632667878832731859189760}},{55,{pong,33,'dev3@127.0.0.1',342539446249430371453988632667878832731859189760}},{54,{pong,33,'dev3@127.0.0.1',342539446249430371453988632667878832731859189760}},{53,{pong,33,'dev3@127.0.0.1',342539446249430371453988632667878832731859189760}},{52,{pong,33,'dev3@127.0.0.1',342539446249430371453988632667878832731859189760}},{51,{pong,33,'dev3@127.0.0.1',342539446249430371453988632667878832731859189760}},{50,{pong,33,'dev3@127.0.0.1',342539446249430371453988632667878832731859189760}},{49,{pong,33,'dev3@127.0.0.1',342539446249430371453988632667878832731859189760}},{48,{pong,33,'dev3@127.0.0.1',342539446249430371453988632667878832731859189760}},{47,{pong,33,'dev3@127.0.0.1',342539446249430371453988632667878832731859189760}}],[{39,{pong,33,'dev3@127.0.0.1',342539446249430371453988632667878832731859189760}},{40,{pong,33,'dev3@127.0.0.1',342539446249430371453988632667878832731859189760}},{41,{pong,33,'dev3@127.0.0.1',342539446249430371453988632667878832731859189760}},{42,{pong,33,'dev3@127.0.0.1',342539446249430371453988632667878832731859189760}},{43,{pong,33,'dev3@127.0.0.1',342539446249430371453988632667878832731859189760}},{44,{pong,33,'dev3@127.0.0.1',342539446249430371453988632667878832731859189760}},{45,{pong,33,'dev3@127.0.0.1',342539446249430371453988632667878832731859189760}},{46,{pong,33,'dev3@127.0.0.1',342539446249430371453988632667878832731859189760}}]},size => 58,start => 39}},{'$initial_call',{'Elixir.IEx.Evaluator',init,4}},{iex_evaluator,ack},{'$ancestors',[<0.82.0>]}]}] [{timeout,54},{in,{'Elixir.IEx.Evaluator',loop,1}},{out,{gen,do_call,4}}]
+2020-02-10 22:06:23.077 [info] <0.712.0>@riak_core_partisan_utils:join:105 Starting join from partisan utils from 'dev1@127.0.0.1' to 'dev3@127.0.0.1'
+2020-02-10 22:06:24.141 [info] <0.712.0>@riak_core_partisan_utils:join:111 Finishing join from 'dev1@127.0.0.1' to 'dev3@127.0.0.1'
+2020-02-10 22:06:24.155 [info] <0.712.0>@riak_core_partisan_utils:join:105 Starting join from partisan utils from 'dev1@127.0.0.1' to 'dev3@127.0.0.1'
+2020-02-10 22:06:25.342 [info] <0.712.0>@riak_core_partisan_utils:join:111 Finishing join from 'dev1@127.0.0.1' to 'dev3@127.0.0.1'
+2020-02-10 22:06:25.357 [info] <0.712.0>@riak_core_partisan_utils:join:105 Starting join from partisan utils from 'dev1@127.0.0.1' to 'dev3@127.0.0.1'
+2020-02-10 22:06:26.549 [info] <0.712.0>@riak_core_partisan_utils:join:111 Finishing join from 'dev1@127.0.0.1' to 'dev3@127.0.0.1'
