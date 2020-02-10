@@ -28,11 +28,13 @@ defmodule Civile.VNode do
 
   def handle_command({:put, {k, v}}, _sender, state = %{table_id: table_id, partition: partition}) do
     :ets.insert(table_id, {k, v})
+    IO.puts " ::: Handle Command Put :::"
     res = {:ok, node(), partition, nil}
 		{:reply, res, state}
 	end
 
 	def handle_command({:get, k}, _sender, state = %{table_id: table_id, partition: partition}) do
+    IO.puts " ::: Handle Command Get :::"
 		res =
 			case :ets.lookup(table_id, k) do
 				[] ->
