@@ -22,6 +22,7 @@ defmodule Civile.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:eleveldb, git: "https://github.com/basho/eleveldb.git", override: true, branch: "develop"},
       {:uniendo, git: "git://github.com/marianoguerra/uniendo.git", branch: "master"}
     ]
   end
